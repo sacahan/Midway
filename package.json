@@ -1,0 +1,30 @@
+{
+  "name": "midway",
+  "version": "1.0.0",
+  "description": "ShopBack Node.js Code Challenge",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.15.1",
+    "moment": "^2.22.2",
+    "npm": "^6.1.0",
+    "path": "^0.12.7",
+    "ramda": "^0.25.0",
+    "stream": "0.0.2",
+    "string-template": "^1.0.0"
+  },
+  "bin": {
+    "midway": "./index.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ShopBack",
+    "SEO"
+  ],
+  "author": "Brian Han",
+  "license": "ISC",
+  "repository": "github:sacahan/Midway"
+}

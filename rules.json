@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "selector": "img[alt='']",
+    "threshold": 1,
+    "operator":"ge",
+    "message": "There are {0} <img> tags without alt attribute."
+  },
+  {
+    "id": "2",
+    "selector": "a:not([rel])",
+    "threshold": 1,
+    "operator":"ge",
+    "message": "There are {0} <a> tags without rel attribute."
+  },
+  {
+    "id": "3",
+    "selectors": [
+      {
+        "selector": "head title",
+        "threshold": 1,
+        "operator":"lt",
+        "message": "A <title> tag does't inside <head> section."
+      },
+      {
+        "selector": "head meta[name=descriptions]",
+        "threshold": 1,
+        "operator":"lt",
+        "message": "A <mata name='descriptions'> tag does't inside <head> section."
+      },
+      {
+        "selector": "head meta[name=keywords]",
+        "threshold": 1,
+        "operator":"lt",
+        "message": "A <meta name='keywords'> tag does't inside <head> section."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "selector": "strong",
+    "threshold": 1,
+    "operator":"ge",
+    "message": "There are {0} <strong> tags in this HTML"
+  },
+  {
+    "id": "5",
+    "selector": "h1",
+    "threshold": 1,
+    "operator":"ge",
+    "message": "There are {0} <h1> tags in this HTML."
+  },
+  {
+    "id": "6",
+    "selector": "meta[name=robots]",
+    "threshold": 1,
+    "operator":"ge",
+    "message": "The <meta name=“robots” /> exists in this HTML"
+  },
+  {
+    "id": "7",
+    "selector": "h2",
+    "threshold": 1,
+    "operator":"ge",
+    "message": "There are {0} <h2> tags in this HTML."
+  }
+]
